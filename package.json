@@ -1,7 +1,7 @@
 {
   "name": "only-one-newtab",
   "version": "0.1.0",
-  "description": "My Chrome Extension",
+  "description": "Only one new-tab can alive.",
   "private": true,
   "scripts": {
     "watch": "webpack --mode=development --watch --config config/webpack.config.js",
@@ -9,6 +9,7 @@
     "format": "prettier --write --ignore-unknown \"{config,public,src}/**/*.{html,css,js,ts,json}\""
   },
   "devDependencies": {
+    "@types/chrome": "^0.0.181",
     "copy-webpack-plugin": "^10.2.4",
     "css-loader": "^6.7.2",
     "file-loader": "^6.2.0",
