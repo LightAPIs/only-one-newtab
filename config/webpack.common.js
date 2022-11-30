@@ -3,7 +3,7 @@
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
-const PATHS = require('./paths');
+// const PATHS = require('./paths');
 
 // used in the module rules and in the stats exlude list
 const IMAGE_TYPES = /\.(png|jpe?g|gif|svg)$/i;
@@ -15,7 +15,7 @@ const IMAGE_TYPES = /\.(png|jpe?g|gif|svg)$/i;
 const common = {
   output: {
     // the build folder to output bundles and assets in.
-    path: PATHS.build,
+    // path: PATHS.build,
     // the filename template for entry chunks
     filename: '[name].js',
   },

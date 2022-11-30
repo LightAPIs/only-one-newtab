@@ -1,7 +1,7 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "Only One NewTab",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Only one new-tab can alive.",
   "icons": {
     "16": "icons/icon_16.png",
@@ -11,7 +11,8 @@
   },
   "default_locale": "en",
   "background": {
-    "service_worker": "background.js"
+    "scripts": ["background.js"],
+    "persistent": false
   },
   "action": {
     "default_title": "Only one new-tab can alive"
