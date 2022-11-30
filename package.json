@@ -1,6 +1,6 @@
 {
   "name": "only-one-newtab",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Only one new-tab can alive.",
   "private": true,
   "scripts": {
